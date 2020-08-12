@@ -1,141 +1,89 @@
 *
 {
-    box-sizing: border-box;
-    padding:0px;
-    font-family: Baskerville, "Baskerville Old Face";
+    margin: 0;
+    padding:0;
+}
+
+.main
+{
+    height:100vh;
+    background: url("Images/bg-img.png");
+}
+
+.navbar
+{
+    height:100px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand
+{
+    width:302px;
+    background:#403D52;
+    display: flex;
+    border-radius: 100px;
+    margin-left: 96px;
+    padding-top:4px;
+    padding-bottom: 4px;
+    justify-content: center;
 }
 
 .logo
 {
-    height:100px;
-    width: 300px;
-    background:#403D52;
-    border-radius: 100px;
-    margin-left: 96px;
-}
-
-.logo-img
-{
-    margin-left: 18px;
+    height:86px;
+    margin-left: 16px;
 }
 
 .separator
 {
-    border-left:1px solid #FFFFFF;
-    height: 56px;
-    margin: 24px 16px;
-    position: absolute;
+    width:1px;
+    background:white;
+    margin-left:16px;
+    height:58px;
+    align-self: center;
 }
-.brand-name
+
+.brand p
 {
-    width: fit-content;
-    position: relative;
-    bottom: 55px;
-    left: 180px;
     color:white;
-    font-size:16px;
+    align-self:center;
+    margin-left: 24px;
+    font-size: 16px;
 }
 
-
-
-.links
+.ham
 {
-    position: absolute;
-    background: url("Images/navbar-content.png");
+    background-image: url("Images/navbar-content.png");
     height:100px;
-    width: 835px;
-    right:0px;
-    top: 8px;
+    width:835px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
-.navbar-content ul
+
+.ham ul
 {
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     
 }
 
-.nav-items li
+.ham ul a
 {
-    
-    margin-top:24px;
-    list-style: none;
-    margin-left:70px;
-    
-}
-
-.nav-items li a
-{
-    font-size:18px;
-    color:white;
     text-decoration: none;
 }
 
-.selected
+.ham ul li
+{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.active
 {
     color:#78D0D3 !important;
-}
-
-
-.container
-{
-    position:absolute;
-    top:248px;
-    left:152px;
-
-}
-.para
-{
-    font-size: 33px;
-    color:#545166;
-    line-height: 188%;
-}
-
-.call
-{
-    height:72px;
-    width:338px;
-    background: #FFFFFF;
-    box-shadow: 4px 4px 4px rgba(64, 61, 82, 0.5);
-    display: flex;
-    justify-content: center;
-    
-}
-
-a
-{
-    text-decoration: none;
-}
-
-.call p
-{
-    color: #403D52;
-    font-size: 20px;
-}
-
-.getquote
-{
-    position: relative;
-    left: 438px;
-    top:-72px;
-    height:72px;
-    width:338px;
-    background: #DEEBED;
-    opacity: 0.6;
-    border: 1px solid #484559;
-    display: flex;
-    justify-content: center;
-}
-
-.getquote P
-{
-    color: #474559;
-    font-size: 20px;
-}
-
-.mission
-{
-    height:382px;
-    width:700px;
-    display: inline-block;
-    background: linear-gradient(180deg, #403D52 0%, #86D4D7 125.54%);
-    border-radius: 0px 80px 0px 0px;
 }
