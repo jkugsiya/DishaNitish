@@ -1,0 +1,141 @@
+*
+{
+    box-sizing: border-box;
+    padding:0px;
+    font-family: Roboto;
+}
+
+.logo
+{
+    height:100px;
+    width: 300px;
+    background:#403D52;
+    border-radius: 100px;
+    margin-left: 96px;
+}
+
+.logo-img
+{
+    margin-left: 18px;
+}
+
+.separator
+{
+    border-left:1px solid #FFFFFF;
+    height: 56px;
+    margin: 24px 16px;
+    position: absolute;
+}
+.brand-name
+{
+    width: fit-content;
+    position: relative;
+    bottom: 55px;
+    left: 180px;
+    color:white;
+    font-size:16px;
+}
+
+
+
+.links
+{
+    position: absolute;
+    background: url("Images/navbar-content.png");
+    height:100px;
+    width: 835px;
+    right:24px;
+    top: 8px;
+}
+.navbar-content ul
+{
+    display: flex;
+    
+}
+
+.nav-items li
+{
+    
+    margin-top:27px;
+    list-style: none;
+    margin-left:70px;
+    
+}
+
+.nav-items li a
+{
+    font-size:18px;
+    color:white;
+    text-decoration: none;
+}
+
+.selected
+{
+    color:#78D0D3 !important;
+}
+
+
+.container
+{
+    position:absolute;
+    top:248px;
+    left:152px;
+
+}
+.para
+{
+    font-size: 33px;
+    color:#545166;
+    line-height: 188%;
+}
+
+.call
+{
+    height:72px;
+    width:338px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(64, 61, 82, 0.5);
+    display: flex;
+    justify-content: center;
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.call p
+{
+    color: #403D52;
+    font-size: 20px;
+}
+
+.getquote
+{
+    position: relative;
+    left: 538px;
+    top:-72px;
+    height:72px;
+    width:338px;
+    background: #DEEBED;
+    opacity: 0.6;
+    border: 1px solid #484559;
+    display: flex;
+    justify-content: center;
+}
+
+.getquote P
+{
+    color: #474559;
+    font-size: 20px;
+}
+
+.mission
+{
+    height:382px;
+    width:700px;
+    display: inline-block;
+    background: linear-gradient(180deg, #403D52 0%, #86D4D7 125.54%);
+    border-radius: 0px 80px 0px 0px;
+}
