@@ -2,7 +2,7 @@
 {
     box-sizing: border-box;
     padding:0px;
-    font-family: Roboto;
+    font-family: Baskerville, "Baskerville Old Face";
 }
 
 .logo
@@ -44,7 +44,7 @@
     background: url("Images/navbar-content.png");
     height:100px;
     width: 835px;
-    right:24px;
+    right:0px;
     top: 8px;
 }
 .navbar-content ul
@@ -56,7 +56,7 @@
 .nav-items li
 {
     
-    margin-top:27px;
+    margin-top:24px;
     list-style: none;
     margin-left:70px;
     
@@ -114,7 +114,7 @@ a
 .getquote
 {
     position: relative;
-    left: 538px;
+    left: 438px;
     top:-72px;
     height:72px;
     width:338px;
