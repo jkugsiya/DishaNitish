@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding:0;
+    font-family: Helvetica, sans-serif;
 }
 
 .main
@@ -86,4 +87,106 @@
 .active
 {
     color:#78D0D3 !important;
+}
+
+.info
+{
+    margin-top: 96px;
+}
+
+.info p
+{
+    margin-left: 96px;
+    font-size: 33px;
+    color: #545166;
+    line-height: 188.69%;
+    letter-spacing: 0.045em;
+}
+
+.info p strong
+{
+    font-size:150%;
+}
+
+.btns
+{
+    display: flex;
+    margin-left: 96px;
+    margin-top: 15px;
+}
+
+.callbtn
+{
+    height:72px;
+    width: 337px;
+    background: white;
+    box-shadow: 4px 4px 4px rgba(64, 61, 82, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotebtn
+{
+    height: 72px;
+    width: 337px;
+    border: 1px solid #484559;
+    background: #DEEBED;
+    opacity: 0.6;
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns a
+{
+    text-decoration: none;
+    color:#474559;
+    font-size: 20px;
+    font-family: 'Libre Baskerville';
+}
+
+.vismiss
+{
+    margin-top:100px;
+    width: flex-end;
+    margin-left:96px;
+    display: flex;
+    
+}
+
+.circles
+{
+    align-self:flex-end;
+}
+
+.business
+{
+    height: 382px;
+    left: 315px;
+    border-radius: 0px 0px 0px 80px;
+}
+
+.viscontent
+{
+    height: 382px;
+    background: linear-gradient(180deg, #403D52 0%, #86D4D7 125.54%);
+    border-radius: 0px 80px 0px 0px;
+    width:100%;
+}
+
+.viscontent p
+{
+    margin-left:51px;
+    line-height: 197.69%;
+    letter-spacing: 0.06em;
+    margin-top: 35px;
+    font-size: 20px;
+    color:white;
+}
+
+.viscontent p strong
+{
+    font-family: 'Libre Baskerville';
 }
