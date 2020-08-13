@@ -107,6 +107,7 @@
 .info p strong
 {
     font-size:150%;
+    font-family: "Libre Baskerville";
 }
 
 .btns
@@ -194,7 +195,7 @@
 
 .mvps
 {
-    margin-top: 160px;
+    margin-top: 418px;
     display:flex;
     width:1024px;
     margin-left: 213px;
@@ -316,8 +317,10 @@ learn
 
 .innovations
 {
-    background: url("Images/Rectangle\ 33.png");
-    height:528px;
+    background: linear-gradient(180deg, #403D52 41.08%, #FFFFFF 154.34%);
+    border-radius: 0px 100px;
+    /* background: url("Images/Rectangle\ 33.png"); */
+    height:500px;
     width:1244px;
     margin-top: 162px;
     padding-top: 19px;
@@ -368,4 +371,68 @@ learn
 .circlessmall
 {
     position:absolute;
+}
+
+.getintouchimg
+{
+    height:854px;
+    width: 100%;
+    margin-top:221px;
+    background: #403D52;
+    border-radius: 0px 100px 0px 0px;
+    display: flex;
+}
+
+.leftcontent
+{
+    height:674px;
+    width: 506px;
+    margin-left: 100px;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightcontent
+{
+    height:720px;
+    width:524px;
+    margin-left: 80px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logobottom
+{
+    align-self: center;
+    margin-bottom: 9px;
+}
+
+.leftcontent p 
+{
+    margin-left:32px;
+    font-size: 18px;
+    line-height: 197.69%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.vector11
+{
+    height:133px;
+    width:454px;
+    background: url("Images/Vector\ 11.png");
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.vector11 p
+{
+    font-family: "Libre Baskerville";
+    font-size: 32px;
+    color:white;
+    margin-top: 60px;
 }
