@@ -9,6 +9,7 @@
 {
     height:100vh;
     background: url("Images/bg-img.png");
+    background-repeat: no-repeat;
 }
 
 .navbar
@@ -189,4 +190,182 @@
 .viscontent p strong
 {
     font-family: 'Libre Baskerville';
+}
+
+.mvps
+{
+    margin-top: 160px;
+    display:flex;
+    width:1024px;
+    margin-left: 213px;
+    justify-content: space-between;
+}
+
+.services
+{
+    margin-left: 145px;
+    margin-top: 145px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.servicecloud
+{
+    background: url("Images/cloud.png");
+    height: 162px;
+    width: 487px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.servicecloud p
+{
+    font-family: "Libre Baskerville";
+    font-size: 35px;
+    margin-top: 75px;
+    color: #403D52;
+    letter-spacing: 0.06em;
+}
+
+.halfrect
+{
+    background: url("Images/half-rectangle.png");
+    height: 328px;
+    width: 642px;
+    margin-left: -1px;
+}
+
+.cloud
+{
+    background: url("Images/cloud\ pic.png");
+    height: 354px;
+    width: 443px;
+    margin-top:-138px;
+}
+
+.cloudservices
+{
+    margin-top: -138px;
+    margin-left: 100px;
+}
+
+.servicedesc
+{
+    font-size: 16px;
+    line-height: 197.69%;
+    letter-spacing: 0.06em;
+}
+
+.servicedesc strong
+{
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    letter-spacing: 0.06em;
+}
+
+learn
+{
+    font-size:20px;
+    letter-spacing: 0.06em;
+    color: #403D52;
+    text-shadow: 0px 4px 4px rgba(64, 61, 82, 0.3);
+}
+
+.industry
+{
+    margin-top: 84px;
+    height:354px;
+    width:100%;
+    display: flex;
+}
+
+.vertrect
+{
+    background: url("Images/vertrect.png");
+    height: 354px;
+    width: 4px;
+}
+
+.industrydesc
+{
+    margin-left: 46px;
+}
+
+.industrypic
+{
+    margin-left:160px;
+}
+
+.construction
+{
+    display: flex;
+    margin-top: 94px;
+
+}
+
+.constructiondesc
+{
+    margin-left: 100px;
+}
+
+.halfrectright
+{
+    margin-left: -470px;
+}
+
+.innovations
+{
+    background: url("Images/Rectangle\ 33.png");
+    height:528px;
+    width:1244px;
+    margin-top: 162px;
+    padding-top: 19px;
+    background-repeat: no-repeat;
+}
+
+.innovationsdesc
+{
+    margin-left: 242px;
+    height: 116px;
+    width: 567px;
+
+}
+
+.innovations p
+{
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    color: #78D0D3;
+}
+
+.innovations p strong
+{
+    font-size: 35px;
+    font-family: "Libre Baskerville";
+    color: white;
+}
+
+.quantum
+{
+    margin-left: 163px;
+    margin-top: 37px;
+}
+
+.gis
+{
+   margin-left: 55px;
+   margin-top: 37px;
+}
+
+.ism
+{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 37px;
+}
+
+.circlessmall
+{
+    position:absolute;
 }
