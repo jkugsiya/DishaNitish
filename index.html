@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="main">
-        <div class="navbar">
+        <div class="navbar" id="nav">
             <div class="brand">
                 <div class="logo">
                     <img src="Images/logo-sm.png" alt="">
@@ -142,8 +142,17 @@
         </div>
         <div class="rightcontent">
             <div class="vector11">
-                <p>GET IN TOUCH</p>
+                <p>GET IN TOUCH</p>                
             </div>
+            <form action="#" class="form">
+                <input type="text" placeholder="Name*" required>
+                <input type="email" placeholder="Email*" required>
+                <input type="tel" placeholder="Phone*" required>
+                <input type="text" placeholder="Subject*" required>
+                <textarea name="message" placeholder="Message" cols="30" rows="10" class="msginput"></textarea>
+                <button type="submit" id="submitbtn">SEND</button>
+                <a href="#nav"><div class="top"></div></a>
+            </form>
         </div>
     </div>
 
