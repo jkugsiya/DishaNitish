@@ -16,7 +16,6 @@
 .navbar
 {
     height:100px;
-    padding-top: 8px;
     display: flex;
     justify-content: space-between;
 }
@@ -147,7 +146,8 @@
     text-decoration: none;
     color:#474559;
     font-size: 20px;
-    font-family: 'Libre Baskerville';
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
 .vismiss
@@ -472,6 +472,7 @@ learn
     background: #78D0D3;
     font-size: 17px; 
     color: #403D52;
+    font-weight: bold;
 }
 
 .top
@@ -481,4 +482,146 @@ learn
     width: 37px;
     margin-left: 480px;
     margin-top: -40px;
+}
+
+.paracontent
+{
+    margin: 0 122px; 
+    margin-top: 135px;
+    height: 131px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enquiry p
+{
+    line-height: 250%;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    margin-left: 30px;
+}
+
+.enquiry h4
+{
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 197.69%;
+}
+
+.enquiry
+{
+    width: 241px; 
+}
+
+.paracontent h3
+{
+    font-size: 32px; 
+    line-height: 197.69%;
+    letter-spacing: 0.06em;
+    font-weight: normal;
+}
+
+.mail-icon
+{
+    position: absolute;
+    background: url("Images/mail-icon.svg");
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+.call-icon
+{
+    position: absolute;
+    background: url("Images/call-icon.svg");
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+.contactform
+{
+    height: 552px;
+    width: 638px; 
+    margin-left: 122px;
+    margin-top: 45px;
+}
+
+.contactform input
+{
+    background: #78D0D3;
+    opacity: 0.2;
+    height: 62px;
+    width: 309px;
+    display: block;
+}
+
+.contactform label
+{
+    font-size: 18px;
+    line-height: 197.69%;
+    letter-spacing: 0.06em;
+    display: block;
+}
+
+.contactform textarea
+{
+    height: 138px;
+    width: 638px;
+    background: #78D0D3;
+    opacity: 0.2;
+}
+
+.contactform button
+{
+    height: 47px;
+    width: 226px;
+    background: #403D52;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.map iframe
+{
+    height:500px;
+    width: 100%;
+    margin-top: 106px;
+}
+
+.comp-info
+{
+    height: 465px;
+    margin-top: -65px;
+    background: #403D52;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comp-logo
+{
+    margin-top: 100px;
+}
+
+.comp-info p
+{
+    font-size: 18px;
+    line-height: 197.69%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.social-logos
+{
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
