@@ -6,11 +6,27 @@
     box-sizing: border-box;
 }
 
+.wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .main
 {
-    height:100vh;
+    
     background: url("Images/bg-img.png");
     background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+
+@media screen and (min-width: 1600px) 
+{
+    .main
+    {
+        height: 100vh;
+    }
 }
 
 .navbar
@@ -196,19 +212,20 @@
 
 .mvps
 {
+    margin: 0 auto;
     margin-top: 418px;
     display:flex;
     width:1024px;
-    margin-left: 213px;
     justify-content: space-between;
 }
 
 .services
 {
-    margin-left: 145px;
+    margin: 0 auto;
     margin-top: 145px;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    width: 1180px;
 }
 
 .servicecloud
