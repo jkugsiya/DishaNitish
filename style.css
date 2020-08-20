@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #ECF8F8;
+}
+
 .wrapper
 {
     width: 100%;
@@ -21,30 +25,32 @@
     background-size: 100%;
 }
 
-
-
+@media screen and (max-height: 765px)
+{
+    .main{
+        height: 765px;
+    }
+}
 .navbar
 {
-    height:100px;
+    height:78px;
     display: flex;
     justify-content: space-between;
 }
 
 .brand
 {
-    width:302px;
+    width:273px;
     background:#403D52;
     display: flex;
     border-radius: 100px;
-    margin-left: 96px;
-    padding-top:4px;
-    padding-bottom: 4px;
+    margin-left: 124px;
     justify-content: center;
 }
 
 .logo
 {
-    height:86px;
+    margin: auto 0;
     margin-left: 16px;
 }
 
@@ -62,14 +68,15 @@
     color:white;
     align-self:center;
     margin-left: 24px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .ham
 {
-    background-image: url("Images/navbar-content.png");
-    height:100px;
-    width:835px;
+    background: url("Images/navbar-content.png");
+    width: 792px;
+    height: 78px;
+    background-size: 792px 78px;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -92,7 +99,8 @@
 {
     list-style: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .active
@@ -102,12 +110,12 @@
 
 .info
 {
-    margin-top: 96px;
+    margin-top: 156px;
 }
 
 .info p
 {
-    margin-left: 96px;
+    margin-left: 144px;
     font-size: 33px;
     color: #545166;
     line-height: 188.69%;
@@ -123,14 +131,14 @@
 .btns
 {
     display: flex;
-    margin-left: 96px;
-    margin-top: 15px;
+    margin-left: 144px;
+    margin-top: 23px;
 }
 
 .callbtn
 {
-    height:72px;
-    width: 337px;
+    height:51px;
+    width: 296px;
     background: white;
     box-shadow: 4px 4px 4px rgba(64, 61, 82, 0.5);
     display: flex;
@@ -140,12 +148,12 @@
 
 .quotebtn
 {
-    height: 72px;
-    width: 337px;
+    height: 51px;
+    width: 296px;
     border: 1px solid #484559;
     background: #DEEBED;
     opacity: 0.6;
-    margin-left: 64px;
+    margin-left: 81px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,7 +170,7 @@
 
 .vismiss
 {
-    margin-top:100px;
+    margin-top:-85px;
     width: flex-end;
     margin-left:96px;
     display: flex;
@@ -176,14 +184,14 @@
 
 .business
 {
-    height: 382px;
-    left: 315px;
+    height: 364px;
+    width: 263px;
     border-radius: 0px 0px 0px 80px;
 }
 
 .viscontent
 {
-    height: 382px;
+    height: 364px;
     background: linear-gradient(180deg, #403D52 0%, #86D4D7 125.54%);
     border-radius: 0px 80px 0px 0px;
     width:100%;
@@ -195,7 +203,7 @@
     line-height: 197.69%;
     letter-spacing: 0.06em;
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 18px;
     color:white;
 }
 
@@ -207,10 +215,18 @@
 .mvps
 {
     margin: 0 auto;
-    margin-top: 418px;
+    margin-top:101px;
     display:flex;
     width:1024px;
     justify-content: space-between;
+}
+
+.mvps img {
+    height: 12rem;
+}   
+
+.mvps img :nth-last-child(1) {
+    height: 10rem;
 }
 
 .services
@@ -219,14 +235,16 @@
     margin-top: 145px;
     display: flex;
     flex-wrap: wrap;
-    width: 1180px;
+    width: 1100px;
 }
 
 .servicecloud
 {
     background: url("Images/cloud.png");
-    height: 162px;
-    width: 487px;
+    height: 155px;
+    width: 433px;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     
@@ -332,16 +350,16 @@ learn
     background: linear-gradient(180deg, #403D52 41.08%, #FFFFFF 154.34%);
     border-radius: 0px 100px;
     /* background: url("Images/Rectangle\ 33.png"); */
-    height:500px;
-    width:1244px;
+    height:465px;
+    width:1045px;
     margin-top: 162px;
-    padding-top: 19px;
+    padding-top: 34px;
     background-repeat: no-repeat;
 }
 
 .innovationsdesc
 {
-    margin-left: 242px;
+    margin-left: 138px;
     height: 116px;
     width: 567px;
 
@@ -363,21 +381,27 @@ learn
 
 .quantum
 {
-    margin-left: 163px;
+    margin-left: 137px;
     margin-top: 37px;
+    height:328px;
+    width:289px;
 }
 
 .gis
 {
-   margin-left: 55px;
-   margin-top: 37px;
+    margin-left: 51px;
+    margin-top: 37px;
+    height:328px;
+    width:289px;
 }
 
 .ism
 {
     position: absolute;
-    margin-left: 55px;
+    margin-left: 41px;
     margin-top: 37px;
+    height:328px;
+    width:289px;
 }
 
 .circlessmall
@@ -387,9 +411,9 @@ learn
 
 .getintouchimg
 {
-    height:854px;
+    height:753px;
     width: 100%;
-    margin-top:221px;
+    margin-top:103px;
     background: #403D52;
     border-radius: 0px 100px 0px 0px;
     display: flex;
@@ -397,9 +421,9 @@ learn
 
 .leftcontent
 {
-    height:674px;
-    width: 506px;
-    margin-left: 100px;
+    height:611px;
+    width: 483px;
+    margin-left: 164px;
     margin-top: 85px;
     display: flex;
     flex-direction: column;
@@ -407,9 +431,9 @@ learn
 
 .rightcontent
 {
-    height:720px;
-    width:524px;
-    margin-left: 80px;
+    height:601px;
+    width:451px;
+    margin-left: 105px;
     margin-top: 7px;
     display: flex;
     flex-direction: column;
@@ -418,12 +442,14 @@ learn
 .logobottom
 {
     align-self: center;
-    margin-bottom: 9px;
+    margin-bottom: 34px;
+    height: 125px;
+    width: 186px;
 }
 
 .leftcontent p 
 {
-    margin-left:32px;
+    margin-left:34px;
     font-size: 18px;
     line-height: 197.69%;
     letter-spacing: 0.06em;
@@ -432,9 +458,10 @@ learn
 
 .vector11
 {
-    height:133px;
-    width:454px;
-    background: url("Images/Vector\ 11.png");
+    height:110px;
+    width:391px;
+    background: url("Images/cloud.png");
+    background-size: 391px 110px;
     align-self: center;
     display: flex;
     justify-content: center;
@@ -451,8 +478,8 @@ learn
 
 .rightcontent form input
 {
-    width: 100%;
-    height: 47px;
+    width: 451px;
+    height: 39px;
     border: 1px solid #FFFFFF;
     background: #403D52;
     margin-top: 39px;
@@ -477,12 +504,12 @@ learn
 
 #submitbtn
 {
-    height: 47px;
-    width: 225px;
+    height: 38px;
+    width: 185px;
     margin-top: 39px;
     background: #78D0D3;
     font-size: 17px; 
-    color: #403D52;
+    color: #FFFFFF;
     font-weight: bold;
 }
 
@@ -491,7 +518,7 @@ learn
     background: url("Images/topbtn.png");
     height: 37px;
     width: 37px;
-    margin-left: 480px;
+    margin-left: 420px;
     margin-top: -40px;
 }
 
