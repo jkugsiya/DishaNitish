@@ -433,7 +433,7 @@ learn
 {
     height:601px;
     width:451px;
-    margin-left: 105px;
+    margin-left: 200px;
     margin-top: 7px;
     display: flex;
     flex-direction: column;
@@ -489,10 +489,15 @@ learn
     padding-left: 24px;
 }
 
+.rightcontent form ::placeholder {
+    color: white;
+}
+
 .msginput
 {
     height: 152px;
     width: 100%;
+    border: 1px solid #FFFFFF;
     background: #403D52;
     margin-top: 39px;
     color: white;
