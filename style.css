@@ -536,6 +536,7 @@ learn
     justify-content: space-between;
 }
 
+
 .enquiry p
 {
     line-height: 250%;
@@ -561,7 +562,7 @@ learn
     font-size: 32px; 
     line-height: 197.69%;
     letter-spacing: 0.06em;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .mail-icon
