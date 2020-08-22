@@ -557,6 +557,11 @@ learn
     width: 241px; 
 }
 
+.enquiry a {
+    text-decoration: none;
+    color: black;
+}
+
 .paracontent h3
 {
     font-size: 32px; 
