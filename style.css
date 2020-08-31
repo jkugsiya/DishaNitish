@@ -1009,3 +1009,48 @@ learn
   	margin-right: auto;
   	width: 50%;
 }
+
+.industry-img {
+    position: absolute;
+    height: 78%;
+    top: 0;
+    z-index: -1;
+    width: calc(100vw - 17px);
+}
+
+.industry-content {
+    margin: 40% 5% 0 5%; 
+}
+
+.industry-content p {
+    font-size: 18px;
+    font-family: Helvetica;
+    line-height: 200%;
+}
+
+.industry-desc {
+    margin: 5% auto;
+    display: block;
+    height: 80%;
+    width: 90%;
+}
+
+.industry-benefit {
+    margin-left: 5%;
+    line-height: 200%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.industry-benefit ol {
+    margin-left: 3%;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.smart-industry {
+    display: inline-block;
+    height: 45%;
+    width: 45%;
+    margin-left: 7%;
+}
