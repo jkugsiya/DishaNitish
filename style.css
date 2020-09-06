@@ -84,12 +84,22 @@ img {
 
 
 
-.ham a
+.ham > a
 {
     text-decoration: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
+    line-height: 475%;
+}
+
+.ham > div > a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 475%;
 }
 
 
@@ -217,11 +227,10 @@ img {
 
 .vismiss
 {
-    margin-top:-85px;
+    margin-top: -85px;
     width: flex-end;
     margin-left:96px;
     display: flex;
-    
 }
 
 .circles
@@ -259,144 +268,127 @@ img {
     font-family: 'Libre Baskerville';
 }
 
-.mvps
+.mvp
 {
+    display: block;
     margin: 0 auto;
     margin-top:101px;
-    display:flex;
-    width:1024px;
-    justify-content: space-between;
 }
 
-.mvps img {
-    height: 12rem;
-}   
 
-.mvps img :nth-last-child(1) {
-    height: 10rem;
+.service-cloud {
+    margin-left: 106px;
+    margin-top: 70px;
 }
 
-.services
-{
-    margin: 0 auto;
-    margin-top: 145px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1100px;
+.services {
+    margin-left: 173px;
+    margin-right: 132px;
 }
 
-.servicecloud
-{
-    background: url("Images/cloud.png");
-    height: 155px;
-    width: 433px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    
+.cloud_pic {
+    margin-top: 25px;
+    margin-left:16px;
 }
 
-.servicecloud p
-{
-    font-family: "Libre Baskerville";
-    font-size: 35px;
-    margin-top: 75px;
-    color: #403D52;
-    letter-spacing: 0.06em;
+
+.cloud-services-desc {
+    display:inline-block;
+    width: 654px;
+    line-height: 200%;
+    font-size: 18px;
+    vertical-align: top;
+    margin-top: 13px;
+    margin-left: 44px;
 }
 
-.halfrect
-{
-    background: url("Images/half-rectangle.png");
-    height: 328px;
-    width: 642px;
-    margin-left: -43px;
+.cloud-service-rect {
+    position: absolute;
+    right: 132px;
+    height: 311px;
 }
 
-.cloud
-{
-    background: url("Images/cloud\ pic.png");
-    height: 354px;
-    width: 443px;
-    margin-top:-138px;
+.grad-back {
+    width: 442px;
+    height: 311px;
+    position: absolute;
+    right: 132px;
+    margin-top: -310px;
+    z-index: -1;
+    background: linear-gradient(90deg, #B6E5E7 3.43%, #ECF8F8 50%);
+    opacity: 0.3;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.cloudservices
-{
-    margin-top: -138px;
-    margin-left: 100px;
+.industry-services {
+    margin-top: 30px;
 }
 
-.servicedesc
-{
-    font-size: 16px;
-    line-height: 197.69%;
-    letter-spacing: 0.06em;
-}
-
-.servicedesc strong
-{
-    font-family: "Libre Baskerville";
-    font-size: 24px;
-    letter-spacing: 0.06em;
-}
-
-learn
-{
-    font-size:20px;
+learn {
     letter-spacing: 0.06em;
     color: #403D52;
     text-shadow: 0px 4px 4px rgba(64, 61, 82, 0.3);
 }
 
-.industry
-{
-    margin-top: 84px;
-    height:354px;
-    width:100%;
-    display: flex;
+.grad-front {
+    background: linear-gradient(90deg, #B6E5E7 3.43%, #ECF8F8 50%);
+    opacity: 0.3;
+    width: 442px;
+    height: 363px;
+    display: inline-block;
+    margin-left: -4px;
+    position: absolute;
+    z-index:-1;
 }
 
-.vertrect
-{
-    background: url("Images/vertrect.png");
-    height: 354px;
-    width: 4px;
+.vertrect {
+    height: 363px;
 }
 
-.industrydesc
-{
-    margin-left: 46px;
+.industry-services-desc {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 55px; 
+    margin-top: 50px;
+    font-size: 18px;
+    width: 618px;
+    line-height: 200%;
 }
 
-.industrypic
-{
-    margin-left:160px;
+.industry_pic {
+    vertical-align: top;
+    margin-top: 43px;
 }
 
-.construction-home
-{
-    display: flex;
-    margin-top: 94px;
-
+.construction-services {
+    margin-top: 40px;
 }
 
-.constructiondesc
-{
-    margin-left: 100px;
+.construction_pic {
+    margin-top: 83px;
 }
 
-.halfrectright
-{
-    margin-left: -470px;
+.construction-services-desc {
+    display: inline-block;
+    width: 655px;
+    vertical-align: top;
+    line-height: 200%;
+    font-size: 18px;
+    margin-top: 72px;
+    margin-left: 12px;
+}
+
+.construction-service-rect {
+    position: absolute;
+    right: 132px;
+    height: 311px;
+    margin-top: 42px;
 }
 
 .innovations
 {
     background: linear-gradient(180deg, #403D52 41.08%, #FFFFFF 154.34%);
     border-radius: 0px 100px;
-    /* background: url("Images/Rectangle\ 33.png"); */
     height:465px;
     width:1045px;
     margin-top: 162px;
