@@ -740,7 +740,7 @@ learn {
 
 .quantum-home-head-right {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 2%;
 }
 
 .quantum-home-head h1 {
@@ -748,8 +748,8 @@ learn {
     font-family: "Libre Baskerville";
     width: 10%;
     line-height: 200%;
-    font-size: 40px;
-    letter-spacing: 0.2em;
+    font-size: 38px;
+    letter-spacing: 0.06em;
     
 }
 
@@ -835,7 +835,8 @@ learn {
 
 .gis-home-head-right {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 7%;
+    vertical-align: top;
 }
 
 .gis-home-head h1 {
@@ -843,7 +844,7 @@ learn {
     font-family: "Libre Baskerville";
     line-height: 200%;
     font-size: 40px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.06em;
     margin-bottom: 50px;
 }
 
@@ -857,6 +858,7 @@ learn {
     color: white;
     line-height: 200%;
     font-size: 20px;
+    letter-spacing: 0.06em;
 }
 
 .gis-content {
@@ -909,15 +911,16 @@ learn {
 
 .ism-home-head-right {
     display: inline-block;
-    margin-left: 5%;
+    margin-left: -6%;
+    vertical-align: top;
 }
 
 .ism-home-head h1 {
     color: white;
     font-family: "Libre Baskerville";
     line-height: 200%;
-    font-size: 40px;
-    letter-spacing: 0.2em;
+    font-size: 38px;
+    letter-spacing: 0.06em;
     
 }
 
@@ -933,6 +936,7 @@ learn {
     color: white;
     line-height: 200%;
     font-size: 20px;
+    letter-spacing: 0.06em;
 }
 
 .ism-content {
