@@ -330,6 +330,10 @@ learn {
     text-shadow: 0px 4px 4px rgba(64, 61, 82, 0.3);
 }
 
+a {
+    text-decoration: none;
+}
+
 .grad-front {
     background: linear-gradient(90deg, #B6E5E7 3.43%, #ECF8F8 50%);
     opacity: 0.3;
@@ -357,7 +361,7 @@ learn {
 
 .industry_pic {
     vertical-align: top;
-    margin-top: 43px;
+    margin-top: 45px;
 }
 
 .construction-services {
@@ -426,12 +430,44 @@ learn {
     width:289px;
 }
 
+.quantum-img-link span {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: "Libre Baskerville";
+    width: 170px;
+    line-height: 200%;
+    letter-spacing: 0.03em;
+    margin-left: 155px;
+    margin-top: 230px;
+    text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000; 
+}
+
 .gis
 {
     margin-left: 51px;
     margin-top: 37px;
     height:328px;
     width:289px;
+}
+
+.gis-img-link span {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: "Libre Baskerville";
+    width: 250px;
+    line-height: 200%;
+    letter-spacing: 0.03em;
+    margin-left: 70px;
+    margin-top: 230px;
+    text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000; 
 }
 
 .ism
@@ -441,6 +477,23 @@ learn {
     margin-top: 37px;
     height:328px;
     width:289px;
+}
+
+.ism-img-link span {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: "Libre Baskerville";
+    width: 273px;
+    line-height: 200%;
+    letter-spacing: 0.03em;
+    margin-left: 60px;
+    text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000; 
+    margin-top: 230px;
+    z-index: 1;
 }
 
 .circlessmall
@@ -1008,14 +1061,16 @@ learn {
 
 .industry-img {
     position: absolute;
-    height: 78%;
+    height: 625px;
     top: 0;
     z-index: -1;
     width: calc(100vw - 17px);
 }
 
+
+
 .industry-content {
-    margin: 40% 5% 0 5%; 
+    margin: 43% 5% 0 5%; 
 }
 
 .industry-content p {
