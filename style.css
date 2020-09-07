@@ -808,10 +808,11 @@ a {
 
 .quantum-home-head span {
     color: white;
-    text-decoration-line: underline;
     font-size: 130%;
     line-height: 300%;
 }
+
+
 
 .quantum-home-head-right p {
     color: white;
@@ -982,7 +983,10 @@ a {
     font-size: 130%;
     letter-spacing: 0.1em;
     line-height: 200%;
-    text-decoration-line: underline;
+}
+
+sup {
+    text-decoration: none;
 }
 
 .ism-home-head-right p {
