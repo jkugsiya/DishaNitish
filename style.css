@@ -258,6 +258,7 @@ img {
     background: linear-gradient(180deg, #403D52 0%, #86D4D7 125.54%);
     border-radius: 0px 80px 0px 0px;
     width:100%;
+    overflow: auto;
 }
 
 .viscontent p
