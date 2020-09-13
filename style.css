@@ -1152,7 +1152,7 @@ sup {
 .cloud-hero {
     display: flex;
     align-items: center;
-    margin: 4% 6%;
+    margin: 4% 8%;
     justify-content: space-between
 }
 
@@ -1165,5 +1165,113 @@ sup {
 }
 
 .cloud-content {
-    margin: 0 6%;
+    margin: 0 8%;
+}
+
+.cloud-content p {
+    line-height: 200%;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+}
+
+.cloud-impact {
+    display: block;
+    margin: 3% auto;
+}
+
+.cloud-based-services {
+    margin: 6% 10%;
+    font-size: 18px;
+    word-spacing: 0.06em;
+}
+
+.paas {
+    margin: 4% 0;
+    line-height: 200%;
+    
+}
+
+.paas-content-beg {
+    display: inline-block;
+    width: 41%;
+    vertical-align: top;
+}
+
+.paas span {
+    text-decoration-line: underline;
+}
+
+.paas-benefits {
+    margin-top: -4%;
+    margin-left: 16%;
+}
+
+.saas-img {
+    margin-top: -3%;
+    margin-left: 12%;
+}
+
+.iaas-img {
+    margin-top: -1%;
+    margin-left: 24%;
+}
+
+
+.cloud-migration-services {
+    margin: 8% 10%;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+}
+
+
+
+
+#cloud-support {
+    margin: 10% 0 2% 13.3%;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-network {
+    background-image: url("Images/about-network.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+
+.about-network h1{
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    background: #ECF8F8;
+    width: 256.6px;
+    height: 52.76px;
+    margin: 16% auto 0 auto;
+}
+
+.about-content {
+    width: 75%;
+    text-align: center;
+    margin: 2% auto;
+}
+
+.about-content p {
+    letter-spacing: 0.06em;
+    line-height: 156%;
+    margin-bottom: 4%;
+    font-size: 18px;
+}
+
+.nitish-kumar {
+    margin-top: 8%;
+}
+
+.my-work {
+    width: 70%;
+    margin: 5% auto;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    line-height: 25px;
 }
